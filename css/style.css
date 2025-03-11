@@ -60,7 +60,7 @@ nav a {
 }
 
 /* Individual section styling */
-.section {
+.sections {
   width: 45%; /* Sets equal width for both sections */
   padding: 20px;
   border: 1px solid #ddd; /* Adds a subtle border */
