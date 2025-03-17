@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 20px;
   text-align: center; /* Centers text globally */
-  background-color: white; /* Set the background color to blue */
+  background-color: light-blue; /* Set the background color to blue */
 }
 
 /* Header Styling */
