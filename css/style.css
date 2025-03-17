@@ -12,8 +12,8 @@ header {
   display: flex; /* Uses flexbox for layout */
   justify-content: space-between; /* Pushes content to opposite sides */
   align-items: center; /* Aligns items vertically */
-  padding: 20px;
-  background-color: #f1ffe2; /* Purple background */
+  padding: 30px;
+  background-color: #f1ffe2; /* Theme background */
   color: #000000; /* Adds a subtle bottom border */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
 }
