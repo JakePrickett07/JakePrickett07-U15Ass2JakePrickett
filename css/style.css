@@ -6,7 +6,7 @@ body {
   text-align: center; /* Centers text globally */
   background-color: white; /* Set the background color to blue */
 }
- 
+
 /* Header Styling */
 header {
   display: flex; /* Uses flexbox for layout */
@@ -14,26 +14,28 @@ header {
   align-items: center; /* Aligns items vertically */
   padding: 30px;
   background-color: #f1ffe2; /* Theme background */
-  color: #000000; /* Adds a subtle bottom border */
+  color: #000000; /* Text color */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
 }
- 
+
 /* Logo Styling */
 .logo {
   max-width: 100px; /* Restricts logo size */
 }
- 
+
 /* Navigation Bar Styling */
 nav {
   background-color: #333; /* Dark background for contrast */
   padding: 10px;
 }
- 
+
 nav a {
   color: white; /* Sets text color */
   text-decoration: none; /* Removes underline from links */
   margin: 0 10px; /* Adds spacing between links */
- 
+}
+
+/* Main Content Section Styling */
 .content {
   background-color: #1A42DC; /* Light grey background */
   padding: 26px; /* Add space inside the main section */
@@ -45,38 +47,91 @@ nav a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   border: 2px solid #2c3e50; /* Dark blue-grey border */
 }
- 
+
+/* Headings in Content Section */
 .content h2 {
   color: #333; /* Dark grey color for heading */
   font-size: 26px; /* Adjust font size */
 }
- 
+
+/* Paragraphs in Content Section */
 .content p {
   color: #666; /* Medium grey for paragraph text */
-  font-size: 26px; /* Adjust font size */
+  font-size: 16px; /* Adjust font size for better readability */
   line-height: 1.5; /* Improve readability */
   max-width: 80%; /* Limit text width for better readability */
+  margin: 0 auto; /* Center text */
 }
- 
+
+/* Sections Styling (Two columns) */
 .sections {
   display: flex; /* Enables side-by-side layout */
   justify-content: space-around; /* Spaces sections evenly */
   padding: 26px;
+  flex-wrap: wrap; /* Ensure they stack on smaller screens */
 }
- 
+
 /* Individual Section Styling */
 .section {
   width: 45%; /* Sets equal width for both sections */
   padding: 26px;
   border: 1px solid #ddd; /* Adds a subtle border */
   background-color: #845BC7; /* Purple background to make it look appealing */
+  margin-bottom: 20px; /* Adds space between sections */
 }
- 
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%; /* Full width on smaller screens */
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 14px; /* Smaller font size for better readability on mobile */
+  }
+
+  .content h2 {
+    font-size: 22px; /* Adjust heading size on mobile */
+  }
+}
+
 /* Footer Styling */
 footer {
   background-color: #333; /* Matches nav bar */
   color: white; /* White text for contrast */
-  padding: 10px;
+  padding: 20px;
   position: relative;
- /* About Us Images */
- 
+  text-align: center;
+  margin-top: 30px; /* Adds space between content and footer */
+}
+
+footer p {
+  font-size: 14px; /* Adjust font size for footer text */
+}
+
+/* About Us Section Styling */
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.about-us img {
+  width: 150px; /* Sets fixed size for images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Rounded corners for images */
+}
+
+/* Mobile Adjustment for About Us Images */
+@media (max-width: 768px) {
+  .about-us {
+    flex-direction: column; /* Stack images vertically on mobile */
+    gap: 10px;
+  }
+
+  .about-us img {
+    width: 120px; /* Smaller images on mobile */
+  }
+}
