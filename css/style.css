@@ -36,7 +36,7 @@ nav a {
  
 .content {
   background-color: #1A42DC; /* Light grey background */
-  padding: 20px; /* Add space inside the main section */
+  padding: 26px; /* Add space inside the main section */
   border-radius: 10px; /* Rounded corners */
   text-align: center; /* Center text */
   width: 100%; /* Full width */
@@ -48,12 +48,12 @@ nav a {
  
 .content h2 {
   color: #333; /* Dark grey color for heading */
-  font-size: 24px; /* Adjust font size */
+  font-size: 26px; /* Adjust font size */
 }
  
 .content p {
   color: #666; /* Medium grey for paragraph text */
-  font-size: 16px; /* Adjust font size */
+  font-size: 26px; /* Adjust font size */
   line-height: 1.5; /* Improve readability */
   max-width: 80%; /* Limit text width for better readability */
 }
@@ -61,13 +61,13 @@ nav a {
 .sections {
   display: flex; /* Enables side-by-side layout */
   justify-content: space-around; /* Spaces sections evenly */
-  padding: 20px;
+  padding: 26px;
 }
  
 /* Individual Section Styling */
 .section {
   width: 45%; /* Sets equal width for both sections */
-  padding: 20px;
+  padding: 26px;
   border: 1px solid #ddd; /* Adds a subtle border */
   background-color: #845BC7; /* Purple background to make it look appealing */
 }
@@ -78,4 +78,5 @@ footer {
   color: white; /* White text for contrast */
   padding: 10px;
   position: relative;
-}
+ /* About Us Images */
+ 
