@@ -13,7 +13,7 @@ header {
   justify-content: space-between; /* Pushes content to opposite sides */
   align-items: center; /* Aligns items vertically */
   padding: 30px;
-  background-color: #f1ffe2; /* Theme background */
+  background-color: #fefffd; /* Theme background */
   color: #000000; /* Text color */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
 }
@@ -76,7 +76,7 @@ nav a {
   width: 45%; /* Sets equal width for both sections */
   padding: 26px;
   border: 1px solid #ddd; /* Adds a subtle border */
-  background-color: #845BC7; /* Purple background to make it look appealing */
+  background-color: #e95252; /* Purple background to make it look appealing */
   margin-bottom: 20px; /* Adds space between sections */
 }
 
@@ -148,7 +148,7 @@ footer p {
 }
 
 .sectionA {
-  background-color: #845BC7;
+  background-color: #e95252;
   border-radius: 32px;
   padding-bottom: 80px
 }
@@ -160,33 +160,59 @@ footer p {
   font-size: 30px;
 }
 
-.DAF{
-  background-color: #845BC7;
-  border-radius: 32px;
-  padding-bottom: 65px;
-  width: 45%;
+.container {
+  display: flex; /* Enables horizontal layout */
+  justify-content: space-between; /* Adjusts spacing between items */
+  align-items: flex-start; /* Aligns items at the top */
 }
 
-.DAF2 {
-  background-color: #845BC7;
+.DAF, .DAF2, .DAF3, .DAF4 {
+  background-color: #e95252;
   border-radius: 32px;
-  padding-bottom: 65px;
+  padding-bottom: 55px;
+  padding-top: 55px;
   width: 45%;
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.DAF3{
-  background-color: #845BC7;
+.english{
+  background-color: #e95252;
   border-radius: 32px;
-  padding-bottom: 65px;
-  width: 45%;
-  margin-top: 270px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-decoration-color: rgb(255, 255, 255);
 }
 
-.DAF4{
-  background-color: #845BC7;
-  border-radius: 32px;
-  padding-bottom: 65px;
-  width: 45%;
-  float: right;
+a { 
+  color:rgb(255, 255, 255);
+}
+
+h3 {
+  color: white;
+}
+
+.circle-image{
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.disco{
+  width:350;
+  height:200px;
+  border-radius: 10%
+}
+.fas{
+  width:350px;
+  height:200px;
+  border-radius: 10px;
+}
+.events{
+  background-color:#e95252;
+border-radius: 10%;
+margin: auto;
+width: 350px;
 }
