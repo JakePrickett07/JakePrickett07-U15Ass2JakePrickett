@@ -1,1 +1,18 @@
- 
+ .text1{
+    background-color:#e95252;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    float: center;
+ }
+
+ .text1{
+
+ }
+
+h1{
+    color: black;
+}
+
+a{
+    color: white;
+}

@@ -216,3 +216,10 @@ border-radius: 10%;
 margin: auto;
 width: 350px;
 }
+
+.member{
+  background-color: #e95252;
+  border-radius: 10px;
+  margin: auto;
+  width: 350px;
+}
