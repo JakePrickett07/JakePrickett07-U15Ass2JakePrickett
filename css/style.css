@@ -226,3 +226,9 @@ width: 350px;
 table, th, td {
   border: 1px solid black;
 }
+.tablebox {
+   display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100vh;          /* Full viewport height */
+}
