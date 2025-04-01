@@ -69,6 +69,7 @@ nav a {
   justify-content: space-around; /* Spaces sections evenly */
   padding: 26px;
   flex-wrap: wrap; /* Ensure they stack on smaller screens */
+  border-radius: 1000px;
 }
 
 /* Individual Section Styling */
@@ -76,7 +77,6 @@ nav a {
   width: 45%; /* Sets equal width for both sections */
   padding: 26px;
   border: 1px solid #ddd; /* Adds a subtle border */
-  border-radius: 1000px;
   background-color: #e95252; /* Purple background to make it look appealing */
   margin-bottom: 20px; /* Adds space between sections */
 }
