@@ -84,6 +84,7 @@ nav a {
   .section {
     width: 100%; /* Full width on smaller screens */
     margin-bottom: 10px;
+    border-radius: 10px;
   }
 
   .content p {
